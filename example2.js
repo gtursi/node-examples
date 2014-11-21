@@ -5,5 +5,6 @@ var server = net.createServer(function (socket) {
   socket.pipe(socket);
 });
 
-server.listen(12546, '127.0.0.1');
-console.log('Echo tcp server running at port 12546');
+server.listen(15246, function(){
+	console.log('Echo tcp server running at port 15246');
+});

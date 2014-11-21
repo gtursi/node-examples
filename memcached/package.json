@@ -1,0 +1,8 @@
+{
+    "name":"demo-memcached",
+    "version":"1.0.0",
+    "dependencies":{
+        "memcached":"2.0.0"
+    }
+}
+
