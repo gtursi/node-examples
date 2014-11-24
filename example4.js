@@ -9,7 +9,7 @@ var server = net.createServer(function(c) { //'connection' listener
 });
 
 server.listen(15246, function() { //'listening' listener
-  console.log('server bound');
+  console.log('Server listening on port 15246...');
 });
 
 server.on('error', function (e) {
@@ -20,4 +20,4 @@ server.on('error', function (e) {
       server.listen('15246', 'localhost');
     }, 1000);
   }
-});
+})
